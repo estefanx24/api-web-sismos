@@ -1,5 +1,5 @@
 org: aron18
-service: api-web-sismos
+service: api-web-sismos-dev
 
 provider:
   name: aws
@@ -27,7 +27,7 @@ resources:
     EarthquakesTable:
       Type: AWS::DynamoDB::Table
       Properties:
-        TableName: Earthquakes
+        TableName: Earthquakes-dev
         AttributeDefinitions:
           - AttributeName: date
             AttributeType: S
