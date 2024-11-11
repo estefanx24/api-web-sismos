@@ -1,5 +1,5 @@
 org: aron18
-service: api-web-scraping
+service: api-web-sismos
 
 provider:
   name: aws
